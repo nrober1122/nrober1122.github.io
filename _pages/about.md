@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a PhD student studying control and automation in the Aerospace Controls Lab in MIT's AeroAstro department.
-------
+---
 
 A data-driven personal website
 ======
