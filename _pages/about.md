@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student studying control and automation in the Aerospace Controls Lab in MIT's AeroAstro department.
+I am currently a PhD student in MIT's Department of Aeronautics and Astronautics. I work with Professor Jon How in the Aerospace Controls Lab studying the intersection of autonomy, control, and learning to develop safe autonomous systems.
 
 ---
 
