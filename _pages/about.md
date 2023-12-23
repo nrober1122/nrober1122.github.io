@@ -22,6 +22,11 @@ I also spent a summer working on applied robotics with Dr. Patrick Walters at th
 
 ---
 
+Outside of research, I'm also a fellow in the [AeroAstro Communications Lab](https://mitcommlab.mit.edu/aeroastro/). 
+As a CommLab fellow, I help develop online resources and work with peers in one-on-one coaching sessions to help build technical communication skills within our department.
+
+---
+
 # Recent News
 - December 2023: Our paper [Backward Reachability Analysis for Neural Feedback Loops](https://ieeexplore.ieee.org/abstract/document/9992847) was awarded the 2023 Aerospace Controls Technical Committee Outstanding Student Paper Prize.
 - May 2023: I finished my Masters degree in MIT AeroAstro with the submission of my thesis "BReach-LP: a Framework for Backward Reachability Analysis of Neural Feedback Loops".
