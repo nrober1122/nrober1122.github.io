@@ -8,11 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-"I'm currently a PhD student at MIT in Aeronautics and Astronautics working in the [Aerospace Controls Lab](https://acl.mit.edu/) with Professor Jonathan How. I got my SM degree from MIT in 2023 and my Bachelor's degree from the University of Iowa in 2021, where I worked with Professor Venanzio Cichella in the [Cooperative Autonomous Systems Lab](https://cichella.lab.uiowa.edu/)."
+I am currently a PhD student in [MIT's Department of Aeronautics and Astronautics](https://aeroastro.mit.edu/) working in the [Aerospace Controls Lab](https://acl.mit.edu/) with Professor Jonathan How. 
+I got my SM degree from MIT in 2023 and my Bachelor's degree in Mechanical Engineering from the [University of Iowa](https://me.engineering.uiowa.edu/) in 2021. <!---, where I worked with Professor Venanzio Cichella in the [Cooperative Autonomous Systems Lab](https://cichella.lab.uiowa.edu/).--->
 
 ---
 
-My research focuses on the intersection of learning and control.
+My research seeks to improve **safety** in robotics applications by studying the intersection of deep learning and control theory.
+Specifically, I am exploring the use of **reachability analysis** for certification and synthesis of closed-loop systems that use learned components for perception and/or control.
+The goal of my work is to develop autonomous systems capable of operating safely in uncertain and dynamic environments, such as those shared with humans or other autonomous agents.
+
+Prior to my arrival at MIT, I studied both geometric and adaptive control with Professor Venanzio Cichella in the University of Iowa's [Cooperative Autonomous Systems Lab](https://cichella.lab.uiowa.edu/).
+I also spent a summer working on applied robotics with Dr. Patrick Walters at the [Naval Surface Warefare Center Panama City Division](https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Panama-City/).
+
+---
+
+# Recent News
+- December 2023: Our paper [Backward Reachability Analysis for Neural Feedback Loops](https://ieeexplore.ieee.org/abstract/document/9992847) was awarded the 2023 Aerospace Controls Technical Committee Outstanding Student Paper Prize.
+- May 2023: I finished my Masters degree in MIT AeroAstro with the submission of my thesis "BReach-LP: a Framework for Backward Reachability Analysis of Neural Feedback Loops".
+- April 2023: Our journal paper [Backward Reachability Analysis of Neural Feedback Loops: Techniques for Linear and Nonlinear Systems](https://ieeexplore.ieee.org/document/10097878) was accepted to the IEEE Open Journal of Control Systems.
+
 
 <!---
 A data-driven personal website

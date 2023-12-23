@@ -87,8 +87,8 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 3px;
+      border: 3px solid mix($border-color, #fff, 80%);
     }
   }
 }
@@ -112,7 +112,7 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
 }
@@ -125,7 +125,7 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
   }
 }
