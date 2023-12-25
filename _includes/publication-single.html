@@ -25,7 +25,7 @@
     <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{{ authors }}</h3>
     {% if post.type contains "thesis" %}
       <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{% if post.type contains "phd" %}PhD{% else %}SM{% endif %} Thesis, {{ post.year }}</h3>
-      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">MIT Department of Mechanical Engineering</h3>
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">MIT Department of Aeronautics and Astronautics</h3>
     {% else %}
       <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">
       {{ post.venue }}, {{ post.year }}
@@ -77,7 +77,7 @@
         {% endif %}
 
         <!-- Citation -->
-        <a style="text-decoration: none;" href="{{ post.arxiv }}" target="_blank">Cite <i class="fa fa-quote-right"></i></a>&nbsp;&nbsp;&nbsp;
+        <a style="text-decoration: none;" href="{{ base_path }}{{ post.url }}" target="_blank">Cite <i class="fa fa-quote-right"></i></a>&nbsp;&nbsp;&nbsp;
     </h3>
 <!--      <h5>
          <a href="https://ieeexplore.ieee.org/document/9638658" target="_blank">IEEE Xplore <i class="fa fa-file"></i></a>

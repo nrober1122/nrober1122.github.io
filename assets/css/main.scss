@@ -39,3 +39,40 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.feature__wrapper {
+    // clear: both;
+    margin-bottom: 1em;
+    border-bottom: 0px solid #6e727e;
+}
+
+// div.feature__wrapper .archive__item .archive__item-title:hover {
+//     text-decoration: none;
+//   }
+
+// div.feature__wrapper .archive__item .archive__item-teaser:hover ~ .archive__item-body .archive__item-title {
+//     text-decoration: none;
+//   }
+
+// div.feature__wrapper .archive__item .archive__item-body:hover
+// div.feature__wrapper .archive__item .archive__item-teaser:hover,
+// div.feature__wrapper .archive__item .archive__item-title:hover {
+//   text-decoration: none;
+// }
+
+div.feature__wrapper .archive__item .archive__item-teaser:hover {
+  text-decoration: none;
+}
+
+/* Remove underline from .archive__item-title when hovered */
+div.feature__wrapper .archive__item .archive__item-title:hover {
+  text-decoration: none;
+}
+
+// div.feature__wrapper .archive__item .archive__item-teaser:hover + .archive__item-body .archive__item-title {
+//   text-decoration: none;
+// }
+
+div.language-bibtex.highlighter-rouge {
+  font-size: xx-large;
+}

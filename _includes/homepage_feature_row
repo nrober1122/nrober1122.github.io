@@ -1,14 +1,14 @@
 {% include base_path %}
 
 {% if include.id %}
-  {% assign feature_row = page.[include.id] %}
+  {% assign homepage_feature_row = page.[include.id] %}
 {% else %}
-  {% assign feature_row = page.feature_row %}
+  {% assign homepage_feature_row = page.homepage_feature_row %}
 {% endif %}
 
 <div class="feature__wrapper">
 
-  {% for f in feature_row %}
+  {% for f in homepage_feature_row %}
 
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}
@@ -30,24 +30,15 @@
           </div>
         {% endif %}
 
-        <div class="archive__item-body">
+        <div class="archive__item-body" style="text-align: center; text-decoration: none;">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h4 class="archive__item-title">{{ f.title }}</h4>
           {% endif %}
 
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
-            </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
         </div>
+        
       </div>
     </div>
   {% endfor %}
 
 </div>
-

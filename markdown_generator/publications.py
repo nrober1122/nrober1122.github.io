@@ -100,6 +100,7 @@ for row, item in publications.iterrows():
         "cdc": "IEEE Conference on Decision and Control (CDC)",
         "neurips": "Conference on Neural Information Processing Systems (NeurIPS)",
         "ojcs": "IEEE Open Journal of Control Systems (OJ-CSYS)",
+        "jgcd": "Journal of Guidance, Control, and Dynamics",
     }
 
     if item.Venue in venue_dict:
@@ -130,6 +131,7 @@ for row, item in publications.iterrows():
     md += "\nimage: \"" + item['Image Filename'] + '"'
     md += "\nlinks_to_code: \"" + item['Links to Code'] + '"'
     md += "\nlinks_to_video: \"" + item['Links to Video'] + '"'
+    md += "\nlinks_to_citation: \"" + item['Links to Citation'] + '"'
 
     md += """\ncollection: publications"""
     
@@ -138,12 +140,9 @@ for row, item in publications.iterrows():
     md += "\n---"
     
     md_filename = os.path.basename(md_filename)
-       
-    with open("../_publications/" + md_filename, 'w') as f:
-        f.write(md)
 
     '''
-    Generate bibtex entry in mfe.bib for that publication
+    Generate bibtex entry in nrober.bib for that publication
     '''
     this_bibtex_str = ''
 
@@ -193,10 +192,10 @@ for row, item in publications.iterrows():
 
     if item.Type == "conference" or item.Type == "workshop":
         this_bibtex_str += '\n@inproceedings{' + item.Abbreviation + ','
-        this_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
+        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
         this_bibtex_str += '\n  Author = {' + item.Authors + '},'
         this_bibtex_str += '\n  Booktitle = {' + venue_str + '},'
-        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
+        this_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
         if bibtex_pages_str:
             this_bibtex_str += '\n  Pages = {' + bibtex_pages_str + '},'
         if bibtex_month:
@@ -214,10 +213,10 @@ for row, item in publications.iterrows():
         this_bibtex_str += '\n}\n'
     elif item.Type == "journal":
         this_bibtex_str += '\n@article{' + item.Abbreviation + ','
-        this_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
+        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
         this_bibtex_str += '\n  Author = {' + item.Authors + '},'
         this_bibtex_str += '\n  Journal = {' + venue_str + '},'
-        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
+        this_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
         if bibtex_pages_str:
             this_bibtex_str += '\n  Pages = {' + bibtex_pages_str + '},'
         if bibtex_year:
@@ -235,9 +234,9 @@ for row, item in publications.iterrows():
         this_bibtex_str += '\n}\n'
     elif item.Type == "mastersthesis" or item.Type == "phdthesis":
         this_bibtex_str += '\n@' + item.Type + '{' + item.Abbreviation + ','
+        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
         this_bibtex_str += '\n  Author = {' + item.Authors + '},'
         this_bibtex_str += '\n  School = {' + bibtex_school + '},'
-        this_bibtex_str += '\n  Title = {' + item['Title'] + '},'
         if bibtex_month:
             this_bibtex_str += '\n  Month = {' + bibtex_month + '},'
         if bibtex_year:
@@ -245,6 +244,11 @@ for row, item in publications.iterrows():
         if bibtex_arxiv_link:
             this_bibtex_str += '\n  Url = {' + bibtex_arxiv_link + '},'
         this_bibtex_str += '\n}\n'
+
+    markdown_citation = f"```bibtex{this_bibtex_str}```"
+    md += "\n<br/>\n" + markdown_citation
+    with open("../_publications/" + md_filename, 'w') as f:
+        f.write(md)
 
     bibtex_str += this_bibtex_str
 

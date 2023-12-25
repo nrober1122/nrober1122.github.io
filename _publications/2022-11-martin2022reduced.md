@@ -19,8 +19,11 @@ awards: ""
 notes: ""
 include_on_website: false
 image: "martin2022reduced.png"
-links_to_code: ""
+links_to_code: "https://github.com/caslabuiowa/IowaBB2model"
 links_to_video: ""
+links_to_citation: "https://scholar.googleusercontent.com/scholar.bib?q=info:r293GqqQ1sgJ:scholar.google.com/&output=citation&scisdr=ClHRFPx3ELHowyBMZnk:AFWwaeYAAAAAZYhKfnmgL1M7Fyj3a_PDYja2iRM&scisig=AFWwaeYAAAAAZYhKfi4dJaBJEMCGzFT0Im1bYgo&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"
 collection: publications
 permalink: /publication/2022-11-martin2022reduced.html
 ---
+<br/>
+```bibtex```
