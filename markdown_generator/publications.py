@@ -245,12 +245,74 @@ for row, item in publications.iterrows():
             this_bibtex_str += '\n  Url = {' + bibtex_arxiv_link + '},'
         this_bibtex_str += '\n}\n'
 
+    bibtex_str += this_bibtex_str
+    
+    # Adding html-formatted string to mkdn file for citation
+    html_bibtex_str = ''
+    html_bibtex_str += '<br/>\n<div class="highlighter-rouge">'
+    if item.Type == "conference" or item.Type == "workshop":
+        html_bibtex_str += '\n@inproceedings{' + item.Abbreviation + ','
+        html_bibtex_str += "\n  <span class='Title'>" + item['Title'] + '</span>.'
+        html_bibtex_str += "\n  <span class='Authors'>" + item.Authors + '</span>.'
+    #     html_bibtex_str += '\n  Booktitle = {' + venue_str + '},'
+    #     html_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
+    #     if bibtex_pages_str:
+    #         html_bibtex_str += '\n  Pages = {' + bibtex_pages_str + '},'
+    #     if bibtex_month:
+    #         html_bibtex_str += '\n  Month = {' + bibtex_month + '},'
+    #     if bibtex_address:
+    #         html_bibtex_str += '\n  Address = {' + bibtex_address + '},'
+    #     if bibtex_year:
+    #         html_bibtex_str += '\n  Year = {' + bibtex_year + '},'
+    #     if bibtex_arxiv_link:
+    #         html_bibtex_str += '\n  Url = {' + bibtex_arxiv_link + '},'
+    #     if bibtex_doi:
+    #         html_bibtex_str += '\n  Doi = {' + bibtex_doi + '},'
+    #     if bibtex_awards:
+    #         html_bibtex_str += '\n  awards = {' + bibtex_awards + '},'
+    #     html_bibtex_str += '\n}\n'
+    # elif item.Type == "journal":
+    #     html_bibtex_str += '\n@article{' + item.Abbreviation + ','
+    #     html_bibtex_str += '\n  Title = {' + item['Title'] + '},'
+    #     html_bibtex_str += '\n  Author = {' + item.Authors + '},'
+    #     html_bibtex_str += '\n  Journal = {' + venue_str + '},'
+    #     html_bibtex_str += '\n  entrysubtype = {' + item.Type + '},'
+    #     if bibtex_pages_str:
+    #         html_bibtex_str += '\n  Pages = {' + bibtex_pages_str + '},'
+    #     if bibtex_year:
+    #         html_bibtex_str += '\n  Year = {' + bibtex_year + '},'
+    #     if bibtex_volume:
+    #         html_bibtex_str += '\n  Volume = {' + bibtex_volume + '},'
+    #     if bibtex_number:
+    #         html_bibtex_str += '\n  Number = {' + bibtex_number + '},'
+    #     if bibtex_arxiv_link:
+    #         html_bibtex_str += '\n  Url = {' + bibtex_arxiv_link + '},'
+    #     if bibtex_doi:
+    #         html_bibtex_str += '\n  Doi = {' + bibtex_doi + '},'
+    #     if bibtex_awards:
+    #         html_bibtex_str += '\n  awards = {' + bibtex_awards + '},'
+    #     html_bibtex_str += '\n}\n'
+    # elif item.Type == "mastersthesis" or item.Type == "phdthesis":
+    #     html_bibtex_str += '\n@' + item.Type + '{' + item.Abbreviation + ','
+    #     html_bibtex_str += '\n  Title = {' + item['Title'] + '},'
+    #     html_bibtex_str += '\n  Author = {' + item.Authors + '},'
+    #     html_bibtex_str += '\n  School = {' + bibtex_school + '},'
+    #     if bibtex_month:
+    #         html_bibtex_str += '\n  Month = {' + bibtex_month + '},'
+    #     if bibtex_year:
+    #         html_bibtex_str += '\n  Year = {' + bibtex_year + '},'
+    #     if bibtex_arxiv_link:
+    #         html_bibtex_str += '\n  Url = {' + bibtex_arxiv_link + '},'
+    #     html_bibtex_str += '\n}\n'
+        html_bibtex_str += '\n</div>'
+
+    
+
     markdown_citation = f"```bibtex{this_bibtex_str}```"
     md += "\n<br/>\n" + markdown_citation
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-
-    bibtex_str += this_bibtex_str
+    
 
 bibtex_str = bibtex_str[1:]
 with open("../nrober.bib", "w") as f:
