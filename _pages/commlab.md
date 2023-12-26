@@ -2,7 +2,6 @@
 layout: archive
 permalink: /commlab/
 author_profile: true
-related: false
 ---
 
 {% include base_path %}
