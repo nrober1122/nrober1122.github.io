@@ -131,6 +131,13 @@
   }
 }
 
+.author__pronouns {
+  color: $nick-light-gray;
+  font-size: $type-size-6;
+  font-weight: normal;
+}
+
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
