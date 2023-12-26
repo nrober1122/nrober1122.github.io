@@ -105,6 +105,28 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  .btn {
+    /* default button */
+    display: inline-block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    color: $nick-dark-theme-bckgd;//mix($nick-dark-theme-bckgd, #000, 10%);//#fff !important;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: $nick-light-gray;//mix($nick-light-gray, #fff, 30%);
+    border: 0px !important;
+    border-radius: $border-radius;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: mix($nick-dark-theme-bckgd, $nick-light-gray, 80%);
+      color: mix($nick-dark-theme-bckgd, $nick-light-gray, 10%);
+    }
+  }
 }
 
 .page__hero {
