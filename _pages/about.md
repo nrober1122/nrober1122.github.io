@@ -34,6 +34,7 @@ I also spent a summer working on applied robotics with Dr. Patrick Walters at th
 Outside of research, I'm also a fellow in the [AeroAstro Communications Lab](https://mitcommlab.mit.edu/aeroastro/). 
 As a CommLab fellow, I help develop online resources and work with peers in one-on-one coaching sessions to help build technical communication skills within our department.
 
+What am I interested in?
 ---
 
 # Recent News
