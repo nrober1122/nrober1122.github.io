@@ -5,6 +5,7 @@ permalink: /posts/2012/08/blog-post-1/
 type: 'commkit'
 link: https://mitcommlab.mit.edu/aeroastro/commkit/abstracts/
 related: false
+read_time: 5
 ---
 
 An abstract is a short description of a paper or presentation that informs people of its main points. 
