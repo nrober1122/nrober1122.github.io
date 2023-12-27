@@ -188,7 +188,7 @@ I also enjoy weightlifting, playing ultimate frisbee, and watching Iowa football
 </div>
 
 <div class="image-container">
-  <img src="../images/personal_interests/backpacking_group.jpg" alt="Image 1">
+  <img src="../images/personal_interests/backpacking_group.JPG" alt="Image 1">
   <p class="caption">Backpacking Trip - Four Pass Loop, CO</p>
 </div>
 
@@ -198,12 +198,12 @@ I also enjoy weightlifting, playing ultimate frisbee, and watching Iowa football
 </div>
 
 <div class="image-container">
-  <img src="../images/personal_interests/snowshoeing.jpg" alt="Image 2">
+  <img src="../images/personal_interests/snowshoeing.JPG" alt="Image 2">
   <p class="caption">Snowshoeing Trip - Duluth, MN</p>
 </div>
 
 <div class="image-container">
-  <img src="../images/personal_interests/sailing.jpeg" alt="Image 2">
+  <img src="../images/personal_interests/sailing.JPEG" alt="Image 2">
   <p class="caption">Sailing - Cambridge, MA</p>
 </div>
 
