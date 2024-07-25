@@ -3,7 +3,7 @@ title: "Online Data-Driven Safety Certification for Systems Subject to Unknown D
 authors: "Nicholas Rober, Karan Mahesh, Tyler M. Paine, Max L. Greene, Steven Lee, Sildomar T. Monteiro, Michael R. Benjamin, Jonathan P. How"
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 year: "2023"
-status: "in review"
+status: "published"
 arxiv: "https://arxiv.org/abs/2310.19256"
 official_link: ""
 doi: ""
