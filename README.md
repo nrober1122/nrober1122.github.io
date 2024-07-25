@@ -23,6 +23,7 @@ Edits can be made to the CV locally, but must be pushed to the remote CV repo (a
 ## TODOS
 - Add google analytics
 - Fix weird publications ordering
+- Add news archive to the bottom of the home page -> place for old news to be stored, but not stay up front
 
 <!-- I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
