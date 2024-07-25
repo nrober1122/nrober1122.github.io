@@ -11,7 +11,7 @@ volume: ""
 number: ""
 pages: ""
 publisher: ""
-month: "12"
+month: "9"
 address: ""
 type: "conference"
 school: ""
@@ -23,7 +23,7 @@ links_to_code: ""
 links_to_video: ""
 links_to_citation: ""
 collection: publications
-permalink: /publication/2023-12-rober2023online.html
+permalink: /publication/2023-9-rober2023online.html
 ---
 <br/>
 ```bibtex
@@ -32,7 +32,7 @@ permalink: /publication/2023-12-rober2023online.html
   Author = {Rober, Nicholas and Mahesh, Karan and Paine, Tyler M. and Greene, Max L. and Lee, Steven and Monteiro, Sildomar T. and Benjamin, Michael R. and How, Jonathan P.},
   Booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
   entrysubtype = {conference},
-  Month = {12},
+  Month = {9},
   Year = {2023},
   Url = {https://arxiv.org/abs/2310.19256},
 }

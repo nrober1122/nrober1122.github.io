@@ -11,7 +11,7 @@ volume: ""
 number: ""
 pages: ""
 publisher: ""
-month: "3"
+month: "11"
 address: ""
 type: "conference"
 school: ""
@@ -23,7 +23,7 @@ links_to_code: "https://github.com/mit-acl/nn_robustness_analysis"
 links_to_video: ""
 links_to_citation: "https://scholar.googleusercontent.com/scholar.bib?q=info:VbhfMij2NLQJ:scholar.google.com/&output=citation&scisdr=ClHRFPx3ELHowyBMTuI:AFWwaeYAAAAAZYhKVuL_LOuFLy7aH6162_xjozY&scisig=AFWwaeYAAAAAZYhKVnKBCnqRtvPGE36Tys2kKfg&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1"
 collection: publications
-permalink: /publication/2023-3-rober2023hybrid.html
+permalink: /publication/2023-11-rober2023hybrid.html
 ---
 <br/>
 ```bibtex
@@ -32,7 +32,7 @@ permalink: /publication/2023-3-rober2023hybrid.html
   Author = {Rober, Nicholas and Everett, Michael and Zhang, Songan and How, Jonathan P.},
   Booktitle = {American Controls Conference (ACC)},
   entrysubtype = {conference},
-  Month = {3},
+  Month = {11},
   Year = {2023},
   Url = {https://arxiv.org/pdf/2210.07918.pdf},
 }

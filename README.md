@@ -1,6 +1,29 @@
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+# Modification Instructions
+
+## Adding publications
+
+Simply fill in the relevant information in [this spreadsheet](https://docs.google.com/spreadsheets/d/10A2MIQlLdrSu4oXtvT4SDGBJ-r9K0OYNrGR-TL-Mc6I/edit?usp=sharing) and run the following commands from the main directory:
+```
+cd markdown_generator/
+python publications.py
+```
+The information should automatically fill in. Note that the publications list is supposed to automatically generate with the newest publications at the top, but for some reason the months are in reverse order, so you have to alter the numbers in the spreadsheet to make it appear correctly.
+
+## CV
+
+Edits can be made to the CV locally, but must be pushed to the remote CV repo (and again pushed within the website repo) to appear on the website.
+
+## Miscellaneous Notes
+
+- ``_pages/about.md`` is the home page -- updates to the recent news can be made here.
+
+## TODOS
+- Add google analytics
+- Fix weird publications ordering
+
+<!-- I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
@@ -28,4 +51,4 @@ See more info at https://academicpages.github.io/
 
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch. -->
