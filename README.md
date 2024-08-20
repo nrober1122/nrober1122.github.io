@@ -18,7 +18,7 @@ Edits can be made to the CV locally, but must be pushed to the remote CV repo (a
 ## Miscellaneous Notes
 
 - ``_pages/about.md`` is the home page -- updates to the recent news can be made here.
-- To run the website locally, run the command ```$ bundle exec jekyll serve``` from the main directory
+- To run the website locally, run the command ```$ bundle exec jekyll serve``` from the main directory and visit ```http://localhost:4000/``` in a web browser.
 
 ## TODOS
 - Add google analytics
