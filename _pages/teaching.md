@@ -5,10 +5,15 @@ permalink: /teaching/
 author_profile: true
 ---
 
+Massachussetts Institute of Technology
+------
+Undergraduate Student Mentorship
+Dylan Gaillard, 2024-Present
+
 Northeastern University
 ------
 
-- EECE 7398: Special Topics: Verifiable Machine Learning, Guest Lecturer, Fall 2023
+- EECE 7398: Special Topics: Verifiable Machine Learning, Guest Lecturer, Fall 2023, 2024
 
 
 University of Iowa
