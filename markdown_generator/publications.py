@@ -131,6 +131,7 @@ for row, item in publications.iterrows():
     md += "\nimage: \"" + item['Image Filename'] + '"'
     md += "\nlinks_to_code: \"" + item['Links to Code'] + '"'
     md += "\nlinks_to_video: \"" + item['Links to Video'] + '"'
+    md += "\nlinks_to_website: \"" + item['Links to Website'] + '"'
     md += "\nlinks_to_citation: \"" + item['Links to Citation'] + '"'
 
     md += """\ncollection: publications"""

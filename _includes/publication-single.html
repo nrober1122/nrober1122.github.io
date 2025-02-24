@@ -76,6 +76,11 @@
           <a style="text-decoration: none;" href="{{ post.links_to_video }}" target="_blank">Video <i class="fa fa-film"></i></a>&nbsp;&nbsp;&nbsp;
         {% endif %}
 
+        <!-- Website -->
+        {% if post.links_to_website != "" and post.links_to_website != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.links_to_website }}" target="_blank">Website <i class="fa fa-globe-americas"></i></a>&nbsp;&nbsp;&nbsp;
+        {% endif %}
+
         <!-- Citation -->
         <a style="text-decoration: none;" href="{{ base_path }}{{ post.url }}" target="_blank">Cite <i class="fa fa-quote-right"></i></a>&nbsp;&nbsp;&nbsp;
     </h3>
