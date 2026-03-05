@@ -7,12 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 homepage_feature_row:
+  - image_path: publications/rober2026guardian.png
+    title: "Safety Filtering against Adversarial Attacks"
   - image_path: publications/rober2024carv.gif
     title: "Refinement Algorithms for Safety Certification"
   - image_path: publications/rober2022backward.png
     title: "Backward Reachability for Neural Feedback Loops"
-  - image_path: publications/rober20223d.png
-    title: "Control of Underwater Vehicles"
 ---
 
 I am currently a PhD student in [MIT's Department of Aeronautics and Astronautics](https://aeroastro.mit.edu/) working in the [Aerospace Controls Lab](https://acl.mit.edu/) with Professor Jonathan How. 
@@ -37,9 +37,11 @@ As a CommLab fellow, I help develop online resources and work with peers in one-
 ---
 
 # Recent News
-- January 2025: Our [Workshop on Formal Verification of Control Systems with Neural Network Components](https://sites.google.com/view/wfvnnc/home) will be held as part of the program at ACC 2025.
-- December 2024: Our work [Constraint-Aware Refinement for Safety Verification of Neural Feedback Loops](https://arxiv.org/abs/2410.00145) was accepted for publication in L-CSS and will be presented at ACC 2025 in Denver, CO.
-- May 2024: I presented our paper [Online Data-Driven Safety Certification for Systems Subject to Unknown Disturbances](https://arxiv.org/abs/2310.19256) at ICRA in Yokohama, Japan.
+- February 2026: We submitted our work [GUARDIAN: Safety Filtering for Systems with Perception Models Subject
+to Adversarial Attacks](https://arxiv.org/abs/2602.06026) to LCSS/CDC 2026.
+- July 2025: I presented our work [Constraint-Aware Refinement for Safety Verification of Neural Feedback Loops](https://arxiv.org/abs/2410.00145) at ACC 2025 in Denver, CO.
+- July 2025: We had lots of great discussions at our [Workshop on Formal Verification of Control Systems with Neural Network Components](https://sites.google.com/view/wfvnnc/home) at ACC 2025. Special thanks to our invited speakers [Saber Jafarpour](https://saberjafarpour.github.io/), [Lars Lindemann](https://sites.google.com/view/larslindemann/main-page), [Jonathan DeCastro](https://jadecastro.github.io/), and [Huan Zhang](https://huan-zhang.com/)!
+- June 2025: Our work [Safe Autonomy for Uncrewed Surface Vehicles Using Adaptive Control and Reachability Analysis](https://arxiv.org/abs/2410.01038) was accepted for publication in TCST.
 
 **[Archived News](/archived-news/)**
 
