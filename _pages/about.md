@@ -38,7 +38,7 @@ As a CommLab fellow, I help develop online resources and work with peers in one-
 
 # Recent News
 - February 2026: We submitted our work [GUARDIAN: Safety Filtering for Systems with Perception Models Subject
-to Adversarial Attacks](https://arxiv.org/abs/2602.06026) to LCSS/CDC 2026.
+to Adversarial Attacks](https://arxiv.org/abs/2602.06026) to L-CSS/CDC 2026.
 - July 2025: I presented our work [Constraint-Aware Refinement for Safety Verification of Neural Feedback Loops](https://arxiv.org/abs/2410.00145) at ACC 2025 in Denver, CO.
 - July 2025: We had lots of great discussions at our [Workshop on Formal Verification of Control Systems with Neural Network Components](https://sites.google.com/view/wfvnnc/home) at ACC 2025. Special thanks to our invited speakers [Saber Jafarpour](https://saberjafarpour.github.io/), [Lars Lindemann](https://sites.google.com/view/larslindemann/main-page), [Jonathan DeCastro](https://jadecastro.github.io/), and [Huan Zhang](https://huan-zhang.com/)!
 - June 2025: Our work [Safe Autonomy for Uncrewed Surface Vehicles Using Adaptive Control and Reachability Analysis](https://arxiv.org/abs/2410.01038) was accepted for publication in TCST.
