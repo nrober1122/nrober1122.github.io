@@ -186,6 +186,9 @@
 
   :focus-visible{outline:2.5px solid var(--amber);outline-offset:3px;border-radius:4px;}
 
+  @media(max-width:600px){
+    .traj-group{transform:translate(40px,-80px);}
+  }
   @media(prefers-reduced-motion:reduce){
     *{animation:none!important;}
     html{scroll-behavior:auto;}
@@ -197,7 +200,7 @@
 <!-- ============ HERO ============ -->
 <header class="hero">
   <svg class="traj" viewBox="0 0 760 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-  <g transform="translate(40,0)">
+  <g class="traj-group" transform="translate(40,0)">
     <rect class="traj-rect" transform="translate(10,327)"  x="-20" y="-20" width="40" height="40" fill="#60A5FA" fill-opacity=".20" stroke="#2563EB" stroke-opacity=".60" stroke-width="1.5" rx="3" style="animation-delay:.00s"/>
     <rect class="traj-rect" transform="translate(45,319)"  x="-20" y="-20" width="40" height="40" fill="#60A5FA" fill-opacity=".20" stroke="#2563EB" stroke-opacity=".60" stroke-width="1.5" rx="3" style="animation-delay:.08s"/>
     <rect class="traj-rect" transform="translate(80,308)"  x="-20" y="-20" width="40" height="40" fill="#60A5FA" fill-opacity=".20" stroke="#2563EB" stroke-opacity=".60" stroke-width="1.5" rx="3" style="animation-delay:.16s"/>
